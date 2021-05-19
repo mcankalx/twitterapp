@@ -65,6 +65,10 @@ Open `config/config.json` then edit it with your settings. You will need:
 ## Running the project
 
     $ node index.js
+    
+## Testing the project
+
+   Invoke the following URL by replacing #tweetId with a valid tweetId  http://localhost:3000/tweet/#tweetId
 
 ## Simple build for production
 
