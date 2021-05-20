@@ -44,7 +44,7 @@ app.get(global.gConfig.app_uri, function(req, res) {
     });
 })
 
-// setting the application to listen on port 3000
+// setting the application to listen on port configured in the config file
 var server = app.listen(global.gConfig.node_port, function() {
     var host = server.address().address
     var port = server.address().port
